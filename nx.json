@@ -16,6 +16,7 @@
     "default": {
       "runner": "nx/tasks-runners/default",
       "options": {
+        "cacheableOperations": ["build", "test"] //Nx read the output from the cache instead of running the command for 3 out of 3 tasks.
       }
     }
   },
