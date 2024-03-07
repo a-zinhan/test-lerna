@@ -1,0 +1,20 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   scope: 'p-building',
+0 silly argv   lernaVersion: '8.1.2',
+0 silly argv   '$0': '../../.npm/_npx/d5cad42883f80c04/node_modules/.bin/lerna',
+0 silly argv   script: 'build'
+0 silly argv }
+1 notice cli v8.1.2
+2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
+3 verbose rootPath /home/azinhan/qqq/test-lerna
+4 error Error: unable to find tsconfig.base.json or tsconfig.json
+4 error     at readTsConfigPaths (/home/azinhan/.npm/_npx/d5cad42883f80c04/node_modules/nx/src/utils/nx-plugin.js:257:19)
+4 error     at findNxProjectForImportPath (/home/azinhan/.npm/_npx/d5cad42883f80c04/node_modules/nx/src/utils/nx-plugin.js:234:27)
+4 error     at lookupLocalPlugin (/home/azinhan/.npm/_npx/d5cad42883f80c04/node_modules/nx/src/utils/nx-plugin.js:223:20)
+4 error     at resolveLocalNxPlugin (/home/azinhan/.npm/_npx/d5cad42883f80c04/node_modules/nx/src/utils/nx-plugin.js:178:38)
+4 error     at getPluginPathAndName (/home/azinhan/.npm/_npx/d5cad42883f80c04/node_modules/nx/src/utils/nx-plugin.js:41:28)
+4 error     at loadNxPluginAsync (/home/azinhan/.npm/_npx/d5cad42883f80c04/node_modules/nx/src/utils/nx-plugin.js:78:38)
+4 error     at loadNxPlugins (/home/azinhan/.npm/_npx/d5cad42883f80c04/node_modules/nx/src/utils/nx-plugin.js:105:27)
+4 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+4 error     at async retrieveProjectConfigurations (/home/azinhan/.npm/_npx/d5cad42883f80c04/node_modules/nx/src/project-graph/utils/retrieve-workspace-files.js:45:21)

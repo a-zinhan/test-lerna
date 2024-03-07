@@ -1,0 +1,23 @@
+{
+  "name": "p-building",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Anatolii Zinhan <anatolii.zinhan@godel.shellenergy.co.uk>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/p-building.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npx lerna run build --scope=p-building && jest"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.4.2"
+  }
+}
