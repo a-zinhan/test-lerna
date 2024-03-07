@@ -7,8 +7,10 @@
   "license": "ISC",
   "main": "dist/p-street.js",
   "scripts": {
-    "build": "npx lerna run build --scope=p-building &&  tsc",
-    "test": "npx lerna run build --scope=p-building && npx lerna run build --scope=p-street && jest"
+    "build": "tsc",
+    "test": "jest",
+    "build-old": "npx lerna run build --scope=p-building &&  tsc",
+    "test-old": "npx lerna run build --scope=p-building && npx lerna run build --scope=p-street && jest"
   },
   "directories": {
     "lib": "lib",

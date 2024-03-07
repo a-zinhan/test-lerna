@@ -11,5 +11,20 @@
       }
     }
   ],
-  "nxCloudAccessToken": "NWE4Y2ZjNTItZTUxYi00YjUxLThmNjEtMzEyZDEzZmM1ZWVjfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NWE4Y2ZjNTItZTUxYi00YjUxLThmNjEtMzEyZDEzZmM1ZWVjfHJlYWQtd3JpdGU=",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+      }
+    }
+  },
+  "targetDefaults": {
+    "build": {
+      "dependsOn": ["^build"] // runs before all dependencies' `build` scripts
+    },
+    "test": {
+      "dependsOn": ["build"]  // runs before `build` script of the same project
+    }
+  }
 }
