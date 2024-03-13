@@ -1,6 +1,6 @@
 {
   "name": "p-street",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Anatolii Zinhan <anatolii.zinhan@godel.shellenergy.co.uk>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "dist"
   ],
   "dependencies": {
-    "p-building": "*"
+    "p-building": "^1.0.0"
   },
   "devDependencies": {
     "jest": "^29.7.0"
